@@ -18,6 +18,11 @@ declare namespace Cypress {
      */
     getByName(value: string): Chainable<Element>;
     /**
+     * Custom command to select DOM element by any data attribute.
+     * @example cy.getByData('field-name', 'fieldName')
+     */
+    getByData(dataName: string, value: string): Chainable<Element>;
+    /**
      * Sets user token to localstorage.
      */
     login(): void;

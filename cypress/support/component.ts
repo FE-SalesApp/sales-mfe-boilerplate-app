@@ -1,5 +1,3 @@
-/* eslint-disable vue/no-reserved-component-names */
-/* eslint-disable vue/multi-word-component-names */
 /// <reference types="cypress" />
 import { App, DefineComponent } from 'vue';
 import { mount } from '@cypress/vue';
@@ -10,6 +8,7 @@ import '@cypress/code-coverage/support';
  * Importing Stylesheets
  */
 import '../../src/assets/css/main.css';
+import 'tsv2-library/dist/style.css';
 import './tailwind.css';
 
 import { registerComponents } from '../../src/utils';

@@ -6,6 +6,10 @@ Cypress.Commands.add('getByName', (name) => {
   cy.get(`[data-ts-name="${name}"]`);
 });
 
+Cypress.Commands.add('getByData', (dataName: string, value: string) => {
+  cy.get(`[data-${dataName}="${value}"]`);
+});
+
 Cypress.Commands.add('login', () => {
   const user = {
     token:

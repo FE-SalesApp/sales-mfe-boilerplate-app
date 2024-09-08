@@ -21,9 +21,6 @@
       "@/*": [
         "src/*"
       ],
-      "presets": [
-        "src/presets/index.js"
-      ],
     },
     "lib": [
       "esnext",
@@ -35,7 +32,7 @@
   "include": [
     "**/*.d.ts",
     "**/*.ts",
-    "src/**/*.vue",
+    "src/**/*.vue", "postcss.config.js", "vue.config.js",
   ],
   "exclude": [
     "node_modules"

@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 import vue from '@vitejs/plugin-vue';
-import istanbul from 'vite-plugin-istanbul';
+import { default as istanbul } from 'vite-plugin-istanbul';
 
 export default defineConfig({
   root: '.',
@@ -25,6 +25,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': resolve(__dirname, 'src'),
+      'tsv2-library': resolve(__dirname, 'node_modules/tsv2-library'),
     },
   },
   server: {

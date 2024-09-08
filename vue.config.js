@@ -3,6 +3,7 @@ const { resolve } = require('path');
 
 module.exports = defineConfig({
   transpileDependencies: true,
+  productionSourceMap: false,
   configureWebpack: {
     output: {
       libraryTarget: 'system',
@@ -12,11 +13,18 @@ module.exports = defineConfig({
     resolve: {
       alias: {
         '@': resolve(__dirname, 'src'),
-        'presets': resolve(__dirname, 'src/presets'),
       },
     },
     devServer: {
       port: 8080,
     },
+    externals: [
+      'vue',
+      'single-spa',
+      'single-spa-vue',
+      'tsv2-library',
+      'vue-router',
+      'axios',
+    ],
   },
 });

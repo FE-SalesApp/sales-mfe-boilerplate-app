@@ -1,15 +1,22 @@
 import { App } from 'vue';
-import PrimeVue from 'primevue/config';
-import Preset from 'presets';
+import { Tooltip, TSToastService, LibConfig, TSi18n } from 'tsv2-library';
+
+import router from '@/router';
+import Presets from 'tsv2-library/src/presets';
 
 import '@/assets/css/main.css';
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const registerComponents = (app: App): void => {
-  app.use(PrimeVue, {
+  app.use(LibConfig, {
     unstyled: true,
-    pt: Preset,
+    pt: Presets,
   });
+
+  app.use(router);
+  app.use(TSi18n);
+  app.use(TSToastService);
+
+  app.directive('Tooltip', Tooltip);
 };
 
 export default registerComponents;

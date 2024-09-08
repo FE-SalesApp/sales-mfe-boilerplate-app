@@ -19,14 +19,22 @@ jobs:
         with:
           node-version: 20.9.0
 
-      - name: Install dependencies
-        run: yarn install
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9.4.0
+
+      - name: Install project dependencies
+        run: pnpm install
 
       - name: ESLint Checks
-        run: yarn lint
+        run: pnpm lint
+
+      - name: TS Checks
+        run: pnpm tscheck
 
       - name: Coverage Test
-        run: yarn cy:test-all
+        run: pnpm cy:test-all
 
       - name: SonarQube Scan
         uses: sonarsource/sonarqube-scan-action@master

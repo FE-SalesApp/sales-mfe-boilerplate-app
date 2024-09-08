@@ -4,6 +4,7 @@
 
 import { createApp } from 'vue';
 import { registerComponents } from '@/utils';
+import 'tsv2-library/dist/style.css';
 
 import App from './App.vue';
 

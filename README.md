@@ -1,4 +1,4 @@
-# fe-learning-kit-app
+# acts-mfe-boilerplate-app
 
 ## Project setup
 ```
@@ -7,7 +7,7 @@ pnpm i
 
 ### Compiles and hot-reloads for development
 ```
-pnpm serve
+pnpm dev
 ```
 
 ### Compiles and minifies for production
