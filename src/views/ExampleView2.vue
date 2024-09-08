@@ -1,3 +1,22 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { onMounted, shallowRef } from 'vue';
+import { useBreadcrumbStore } from '@/store';
 
-<template>Another View</template>
+const { setBreadcrumbs } = useBreadcrumbStore();
+
+const menus = shallowRef([
+  {
+    name: 'ACTS',
+  },
+  {
+    name: 'Another Page',
+  },
+]);
+
+onMounted(() => {
+  setBreadcrumbs(menus.value);
+});
+</script>
+<template>
+  <h1>Hello from Another Tab</h1>
+</template>

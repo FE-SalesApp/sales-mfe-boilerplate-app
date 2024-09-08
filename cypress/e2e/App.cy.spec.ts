@@ -3,4 +3,10 @@ describe('Example E2E Testing', () => {
     cy.visit('/');
     cy.get('h1').should('have.text', 'Hello World!');
   });
+
+  it('navigate to another page', () => {
+    cy.visit('/');
+    cy.contains('Another Page').click();
+    cy.url().should('contain', 'another-page');
+  });
 });
