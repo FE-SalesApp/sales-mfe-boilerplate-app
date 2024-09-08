@@ -41,9 +41,6 @@ importers:
       vue-router:
         specifier: 4.4.2
         version: 4.4.2(vue@3.5.3(typescript@5.5.4))
-      vue-tsc:
-        specifier: ^2.1.6
-        version: 2.1.6(typescript@5.5.4)
     devDependencies:
       '@cypress/code-coverage':
         specifier: 3.12.44
@@ -141,6 +138,9 @@ importers:
       vue-cli-plugin-single-spa:
         specifier: 3.3.0
         version: 3.3.0(html-webpack-plugin@5.6.0(webpack@5.93.0))(webpack@5.93.0)
+      vue-tsc:
+        specifier: ^2.1.6
+        version: 2.1.6(typescript@5.5.4)
       webpack:
         specifier: 5.93.0
         version: 5.93.0
