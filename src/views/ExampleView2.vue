@@ -18,5 +18,5 @@ onMounted(() => {
 });
 </script>
 <template>
-  <h1>Hello from Another Tab</h1>
+  <h2>Hello from Another Tab</h2>
 </template>

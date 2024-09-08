@@ -18,5 +18,5 @@ onMounted(() => {
 });
 </script>
 <template>
-  <h1>Hello from Home</h1>
+  <h2>Hello from Home</h2>
 </template>
