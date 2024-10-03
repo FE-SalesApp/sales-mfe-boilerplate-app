@@ -27,7 +27,7 @@
     "single-spa-vue": "3.0.0",
     "systemjs-webpack-interop": "2.3.7",
     "tailwindcss": "3.4.7",
-    "tsv2-library": "^0.3.45",
+    "tsv2-library": "^0.3.82",
     "vue": "3.5.3",
     "vue-router": "4.4.2"
   },
@@ -62,9 +62,9 @@
     "start-server-and-test": "2.0.5",
     "typescript": "5.5.4",
     "vite": "5.4.3",
-    "vue-tsc": "^2.1.6",
     "vite-plugin-istanbul": "5.0.0",
     "vue-cli-plugin-single-spa": "3.3.0",
+    "vue-tsc": "^2.1.6",
     "webpack": "5.93.0"
   }
 }
