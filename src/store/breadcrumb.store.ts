@@ -1,4 +1,4 @@
-import { BreadcrumbMenu } from 'tsv2-library/dist/src/components/v2/Breadcrumb/Breadcrumb.vue.d';
+import { BreadcrumbMenu } from 'wangsvue/components/breadcrumb/Breadcrumb.vue.d';
 import { Ref, ref } from 'vue';
 
 export interface BreadcrumbStore {

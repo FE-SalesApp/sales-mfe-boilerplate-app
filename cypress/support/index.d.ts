@@ -28,5 +28,3 @@ declare namespace Cypress {
     login(): void;
   }
 }
-
-declare module 'tsv2-library/src/presets';

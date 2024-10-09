@@ -22,7 +22,7 @@ module.exports = defineConfig({
       'vue',
       'single-spa',
       'single-spa-vue',
-      'tsv2-library',
+      'wangsvue',
       'vue-router',
       'axios',
     ],

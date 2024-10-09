@@ -1,20 +1,18 @@
 import { App } from 'vue';
-import { Tooltip, TSToastService, LibConfig, TSi18n } from 'tsv2-library';
+import { Tooltip, ToastService, WangsVue, Preset } from 'wangsvue';
 
 import router from '@/router';
-import Presets from 'tsv2-library/src/presets';
 
 import '@/assets/css/main.css';
 
 const registerComponents = (app: App): void => {
-  app.use(LibConfig, {
+  app.use(WangsVue, {
     unstyled: true,
-    pt: Presets,
+    pt: Preset,
   });
 
   app.use(router);
-  app.use(TSi18n);
-  app.use(TSToastService);
+  app.use(ToastService);
 
   app.directive('Tooltip', Tooltip);
 };
