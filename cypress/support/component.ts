@@ -1,8 +1,11 @@
+/* eslint-disable vue/no-reserved-component-names */
+/* eslint-disable vue/multi-word-component-names */
 /// <reference types="cypress" />
 import { App, DefineComponent } from 'vue';
 import { mount } from '@cypress/vue';
 
 import '@cypress/code-coverage/support';
+import './commands';
 
 /**
  * Importing Stylesheets

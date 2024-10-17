@@ -7,6 +7,7 @@
     "moduleResolution": "node",
     "skipLibCheck": true,
     "esModuleInterop": true,
+    "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "useDefineForClassFields": true,
@@ -15,7 +16,7 @@
     "types": [
       "webpack-env",
       "cypress",
-      "mocha"
+      "mocha",
     ],
     "paths": {
       "@/*": [
@@ -32,7 +33,8 @@
   "include": [
     "**/*.d.ts",
     "**/*.ts",
-    "src/**/*.vue", "postcss.config.js", "vue.config.js",
+    "src/**/*.vue",
+    "vite.config.mts",
   ],
   "exclude": [
     "node_modules"

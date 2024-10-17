@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 import vue from '@vitejs/plugin-vue';
-import { default as istanbul } from 'vite-plugin-istanbul';
+import istanbul from 'vite-plugin-istanbul';
 
 export default defineConfig({
   root: '.',
@@ -29,9 +29,12 @@ export default defineConfig({
     },
   },
   server: {
-    port: 9090,
+    port: 9083,
   },
   build: {
     sourcemap: true,
+  },
+  optimizeDeps: {
+    include: ['wangsvue'],
   },
 });

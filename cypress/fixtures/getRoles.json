@@ -1,0 +1,39 @@
+{
+  "status": 200,
+  "message": "Successfully get settings role list.",
+  "data": {
+    "totalRecords": 4,
+    "data": [
+      {
+        "_id": "1",
+        "name": "All Settings Permissions",
+        "description": "permission roles semua setting",
+        "isActive": true,
+        "createdAt": "2024-10-16T12:12:37.672Z",
+        "updatedAt": "2024-10-17T03:03:48.515Z"
+      },
+      {
+        "_id": "2",
+        "name": "12qw",
+        "isActive": false,
+        "createdAt": "2024-10-16T12:22:57.335Z",
+        "updatedAt": "2024-10-16T12:40:48.099Z"
+      },
+      {
+        "_id": "3",
+        "name": "1qdw",
+        "isActive": true,
+        "createdAt": "2024-10-16T12:23:01.169Z",
+        "updatedAt": "2024-10-16T12:38:21.909Z"
+      },
+      {
+        "_id": "4",
+        "name": "Total Control",
+        "description": "Total Control",
+        "isActive": true,
+        "createdAt": "2024-10-14T09:17:38.266Z",
+        "updatedAt": "2024-10-14T10:23:44.957Z"
+      }
+    ]
+  }
+}

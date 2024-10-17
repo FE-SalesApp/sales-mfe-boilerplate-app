@@ -1,12 +1,14 @@
-# acts-mfe-boilerplate-app
+# wangsit-mfe-boilerplate-app
 
 ## Project setup
 ```
-pnpm i
+pnpm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
+Copy .env.example and Rename into .env
+
 pnpm dev
 ```
 

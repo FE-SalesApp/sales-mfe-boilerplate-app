@@ -4,7 +4,6 @@
 
 import { createApp } from 'vue';
 import { registerComponents } from '@/utils';
-import 'wangsvue/style.css';
 
 import App from './App.vue';
 

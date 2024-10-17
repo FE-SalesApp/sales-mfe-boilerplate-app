@@ -1,0 +1,22 @@
+{
+  "status": 200,
+  "message": "Successfully get settings role dropdown.",
+  "data": [
+    {
+      "label": "Total Control",
+      "value": "1"
+    },
+    {
+      "label": "All Settings Permissions",
+      "value": "2"
+    },
+    {
+      "label": "12qw",
+      "value": "3"
+    },
+    {
+      "label": "1qdw",
+      "value": "4"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "status": 200,
+  "message": "Successfully get settings role detail.",
+  "data": {
+    "_id": "1",
+    "name": "All Settings Permissions",
+    "description": "permission roles semua setting",
+    "isActive": true,
+    "permissions": {
+      "sales": false,
+      "seniorSales": false,
+      "admin": false,
+      "elsa": false,
+      "licenseTrial": false,
+      "incentive": false,
+      "priceInformation": false,
+      "referenceNumber": false,
+      "settingsUser": true,
+      "settingsApproval": true,
+      "settingsRole": true,
+      "settingsExpiredTime": true,
+      "settingsCustomField": true,
+      "settingsTermAndCondition": true,
+      "_id": "1"
+    },
+    "createdAt": "2024-10-17T04:23:23.676Z",
+    "updatedAt": "2024-10-17T04:23:23.676Z"
+  }
+}
