@@ -16,7 +16,7 @@ module.exports = defineConfig({
       },
     },
     devServer: {
-      port: 8083,
+      port: 8080,
       liveReload: false,
       hot: false,
     },
